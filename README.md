@@ -28,7 +28,7 @@
 - **test_users.csv** - id юзеров, для которых нужно предсказать вероятность покупки в следующий месяц
 - **baseline_1_submission.csv** - пример submission из baseline_1.ipynb
 
-actions_history Columns
+**actions_history** Columns
 - user_id - id пользователя
 - timestamp - timestamp совершенного действия
 - product_id - id товара
@@ -36,14 +36,14 @@ actions_history Columns
 - action_type_id - id действия, смотри action_type_info.csv
 - widget_name_id - id виджета, смотри widget_info.csv
 
-search_history Columns
+**search_history** Columns
 - user_id - id пользователя
 - timestamp - timestamp совершенного действия
 - search_query - текст запроса
 - action_type_id - id действия, смотри action_type_info.csv
 - widget_name_id - id виджета, смотри widget_info.csv
 
-product_information.csv Columns
+**product_information.csv** Columns
 - product_id - id товара
 - name - полное название товара
 - brand - название бренда товара
